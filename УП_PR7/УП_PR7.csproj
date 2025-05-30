@@ -99,17 +99,17 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="AuthService.cs" />
-    <Compile Include="Forms\DeliveryEditForm.cs">
+    <Compile Include="Forms\SaleEditForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DeliveryEditForm.Designer.cs">
-      <DependentUpon>DeliveryEditForm.cs</DependentUpon>
+    <Compile Include="Forms\SaleEditForm.Designer.cs">
+      <DependentUpon>SaleEditForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\DeliveryViewForm.cs">
+    <Compile Include="Forms\SalesViewForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\DeliveryViewForm.Designer.cs">
-      <DependentUpon>DeliveryViewForm.cs</DependentUpon>
+    <Compile Include="Forms\SalesViewForm.Designer.cs">
+      <DependentUpon>SalesViewForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>AuthForm.cs</DependentUpon>
@@ -125,8 +125,11 @@
     <EmbeddedResource Include="Forms\AuthForm.resx">
       <DependentUpon>AuthForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\DeliveryViewForm.resx">
-      <DependentUpon>DeliveryViewForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SaleEditForm.resx">
+      <DependentUpon>SaleEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SalesViewForm.resx">
+      <DependentUpon>SalesViewForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>

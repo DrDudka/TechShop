@@ -25,7 +25,7 @@ namespace УП_PR7
                 return;
             }
 
-            DeliveryViewForm deliveryViewForm = new DeliveryViewForm();
+            SalesViewForm deliveryViewForm = new SalesViewForm();
             deliveryViewForm.Show();
             this.Hide();
         }
