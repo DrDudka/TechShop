@@ -477,6 +477,13 @@ namespace УП_PR7.Forms
         {
             Application.Exit();
         }
+
+        private void buttonMenu_Click(object sender, EventArgs e)
+        {
+            SalesViewForm salesViewForm = new SalesViewForm();
+            salesViewForm.Show();
+            this.Hide();
+        }
     }
 
     public class Product
