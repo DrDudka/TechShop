@@ -64,6 +64,7 @@ namespace УП_PR7.Forms
                 Text = reader["client_name"].ToString(),
                 AutoSize = true,
                 Font = new Font("Times New Roman", 16),
+                ForeColor = Color.White
             };
 
             Label Address = new Label()
@@ -72,6 +73,7 @@ namespace УП_PR7.Forms
                 Text = $"Адрес: {reader["address"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
 
             Label Phone = new Label()
@@ -80,6 +82,7 @@ namespace УП_PR7.Forms
                 Text = $"Телефон: {reader["phone"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
 
             Label ProductName = new Label()
@@ -88,6 +91,7 @@ namespace УП_PR7.Forms
                 Text = $"Товар: {reader["product_name"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
             
             Label Category = new Label()
@@ -96,6 +100,7 @@ namespace УП_PR7.Forms
                 Text = $"Категория: {reader["category"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
 
             Label DeliveryDate = new Label()
@@ -104,6 +109,7 @@ namespace УП_PR7.Forms
                 Text = $"Дата доставки: {reader["delivery_date"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
             
             Label Status = new Label()
@@ -112,6 +118,7 @@ namespace УП_PR7.Forms
                 Text = $"Статус: {reader["status"]}",
                 AutoSize = true,
                 Font = new Font("Times New Roman", 14),
+                ForeColor = Color.White
             };
 
             panel.Controls.Add(ClientName);
